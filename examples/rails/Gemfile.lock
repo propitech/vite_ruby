@@ -132,7 +132,6 @@ GEM
     matrix (0.4.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    mini_portile2 (2.8.2)
     minitest (5.18.1)
     msgpack (1.4.2)
     net-imap (0.2.3)
@@ -151,8 +150,7 @@ GEM
       net-protocol
       timeout
     nio4r (2.5.8)
-    nokogiri (1.15.2)
-      mini_portile2 (~> 2.8.2)
+    nokogiri (1.15.2-x86_64-linux)
       racc (~> 1.4)
     pg (1.2.3)
     pry (0.13.1)
@@ -202,7 +200,8 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (2.2.0)
-    rexml (3.2.5)
+    rexml (3.3.2)
+      strscan
     rspec-core (3.10.1)
       rspec-support (~> 3.10.0)
     rspec-expectations (3.10.2)
@@ -257,7 +256,7 @@ GEM
     zeitwerk (2.6.8)
 
 PLATFORMS
-  ruby
+  x86_64-linux
 
 DEPENDENCIES
   administrator!
